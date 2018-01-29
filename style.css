@@ -27,13 +27,15 @@ body header {
     margin: 15px 0 0 0;
 }
 
-.sub-form-row {display: none;}
-footer .widgets-row {display: none;}
+.sub-form-row {display: none;}  /* Removes footer search bar */
+/*footer .widgets-row {display: none;}*/  /* Removes the top footer widget area*/
 
 body #footer {
-    padding: 5px 0 0 0;
+    padding: 5px 0 0 0;    
 }
 
 body #footer .link-list-row {
     margin: 15px 0 15px 0;
+    padding-top: 25px;
+    border-top: solid 1px #00a4e6;
 }
