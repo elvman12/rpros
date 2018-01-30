@@ -81,7 +81,8 @@
 						    </p>
 							<?php endif; ?>
 						    
-						    <?php mc_display_footer_social_links(); ?>
+						    <?php //mc_display_footer_social_links(); //Elvis Edit ?> 
+							<?php echo "<br><div class=\"footer-contact\">support@resistancepros.com" . "<br>" . "(719) 800-2024</div>";?>							
 
 						</div><!-- /.contact-info -->
 						<!-- ============================================================= CONTACT INFO : END ============================================================= -->
